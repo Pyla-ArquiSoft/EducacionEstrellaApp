@@ -9,4 +9,4 @@ class Question(models.Model):
     dateTime = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return '%s %s' % (self.value, self.unit)
+        return '%s %s' % (self.student, self.text)

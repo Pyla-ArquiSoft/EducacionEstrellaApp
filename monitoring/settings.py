@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'variables',
     'questions',
     'students',
+    'answers',
 ]
 
 MIDDLEWARE = [

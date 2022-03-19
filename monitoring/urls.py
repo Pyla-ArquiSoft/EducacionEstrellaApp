@@ -22,6 +22,7 @@ urlpatterns = [
     path('', views.index),
     path('', include('questions.urls')),
     path('', include('students.urls')),
+    path('', include('answers.urls')),
     path('', include('measurements.urls')),
     path('', include('variables.urls')),
 ]
