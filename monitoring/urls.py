@@ -26,4 +26,5 @@ urlpatterns = [
     path('', include('measurements.urls')),
     path('', include('variables.urls')),
     path('', include('reservations.urls')),
+    path('', include('godfathers.urls')),
 ]
