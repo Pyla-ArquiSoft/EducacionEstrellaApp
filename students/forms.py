@@ -8,5 +8,5 @@ class StudentForm(forms.ModelForm):
             'name',
         ]
         labels = {
-            'name': 'Name',
+            'name': 'Nombre',
         }

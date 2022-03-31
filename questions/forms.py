@@ -11,7 +11,7 @@ class QuestionForm(forms.ModelForm):
         ]
 
         labels = {
-            'student' : 'Student',
-            'text' : 'Text',
+            'student' : 'Estudiante',
+            'text' : 'Texto',
             #'dateTime' : 'Date Time',
         }

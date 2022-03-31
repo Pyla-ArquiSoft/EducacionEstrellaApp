@@ -12,8 +12,8 @@ class AnswerForm(forms.ModelForm):
         ]
 
         labels = {
-            'question' : 'Question',
-            'text' : 'Text',
-            'author' : 'Author',
+            'question' : 'Pregunta',
+            'text' : 'Texto',
+            'author' : 'Autor',
             #'dateTime' : 'Date Time',
         }

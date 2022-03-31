@@ -10,6 +10,6 @@ class GodfatherForm(forms.ModelForm):
         ]
 
         labels = {
-            'student' : 'Student',
-            'godStudent' : 'Text',
+            'student' : 'Estudiante apadrinado',
+            'godStudent' : 'Estudiante padrino',
         }

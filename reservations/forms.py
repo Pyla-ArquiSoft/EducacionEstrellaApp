@@ -11,7 +11,7 @@ class ReservationForm(forms.ModelForm):
         ]
 
         labels = {
-            'godfather' : 'Godfather',
-            'student' : 'Student',
+            'godfather' : 'Padrino',
+            'student' : 'Estudiante que pide la cita',
             #'dateTime' : 'Date Time',
         }
