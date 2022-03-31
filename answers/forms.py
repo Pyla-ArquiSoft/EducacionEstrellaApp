@@ -7,11 +7,13 @@ class AnswerForm(forms.ModelForm):
         fields = [
             'question',
             'text',
+            'author',
             #'dateTime',
         ]
 
         labels = {
             'question' : 'Question',
             'text' : 'Text',
+            'author' : 'Author',
             #'dateTime' : 'Date Time',
         }

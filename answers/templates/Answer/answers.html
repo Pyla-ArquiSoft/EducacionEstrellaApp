@@ -28,6 +28,7 @@
                         <tr style="color:#0E2EB0">
                             <th font color="red">Persona que pregunta</th>
                             <th font color="red">Pregunta</th>
+                            <th font color="red">Persona que responde</th>
                             <th>Respuestas</th>
                             <th>Fecha</th>
                         </tr>
@@ -38,6 +39,7 @@
                         <tr>
                             <td>{{ answer.question.student }}</td>
                             <td>{{ answer.question.text }}</td>
+                            <td>{{ answer.author }}</td>
                             <td>{{ answer.text }}</td>
                             <td>{{ answer.dateTime }}</td>
                         </tr>
