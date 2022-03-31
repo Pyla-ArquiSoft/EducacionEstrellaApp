@@ -25,4 +25,5 @@ urlpatterns = [
     path('', include('answers.urls')),
     path('', include('measurements.urls')),
     path('', include('variables.urls')),
+    path('', include('reservations.urls')),
 ]
