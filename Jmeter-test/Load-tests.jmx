@@ -304,7 +304,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1500</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -462,7 +462,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1500</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
@@ -482,10 +482,17 @@
               </elementProp>
               <elementProp name="text" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">si</stringProp>
+                <stringProp name="Argument.value">pq eres raro</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
                 <boolProp name="HTTPArgument.use_equals">true</boolProp>
                 <stringProp name="Argument.name">text</stringProp>
+              </elementProp>
+              <elementProp name="author" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">Javier</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+                <stringProp name="Argument.name">author</stringProp>
               </elementProp>
             </collectionProp>
           </elementProp>
@@ -620,8 +627,8 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">1500</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <stringProp name="ThreadGroup.num_threads">100</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">10</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
@@ -647,8 +654,8 @@
               </elementProp>
             </collectionProp>
           </elementProp>
-          <stringProp name="HTTPSampler.domain">172.24.41.161</stringProp>
-          <stringProp name="HTTPSampler.port">80</stringProp>
+          <stringProp name="HTTPSampler.domain">172.24.41.162</stringProp>
+          <stringProp name="HTTPSampler.port">8082</stringProp>
           <stringProp name="HTTPSampler.protocol"></stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
           <stringProp name="HTTPSampler.path">/reservationcreate/</stringProp>
