@@ -37,13 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'measurements',
-    'variables',
-    'questions',
     'students',
-    'answers',
-    'reservations',
-    'godfathers',
 ]
 
 MIDDLEWARE = [
@@ -83,9 +77,9 @@ WSGI_APPLICATION = 'monitoring.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'db',
-        'USER': 'db',
-        'PASSWORD': 'db',
+        'NAME': 'db_usu',
+        'USER': 'db_usu',
+        'PASSWORD': 'db_usu',
         'HOST': 'localhost',
         'PORT': '5432',
     }

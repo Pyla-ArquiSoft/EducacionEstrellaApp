@@ -5,5 +5,5 @@ from . import views
 
 urlpatterns = [
     path('students/', views.student_list, name='studentList'),
-    path('studentcreate/', csrf_exempt(views.student_create), name='studentCreate'),
+    path('studentcreate/$', csrf_exempt(views.student_create), name='studentCreate'),
 ]
