@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'questions',
-    'students',
     'answers',
 ]
 
@@ -135,4 +134,4 @@ STATICFILES_DIRS = (
     os.path.join(PROJECT_ROOT, 'static'),
 )
 
-PATH_STUD = "http://0.0.0.0:8002/students"
+PATH_STUD = "http://127.0.0.1:8002/students"

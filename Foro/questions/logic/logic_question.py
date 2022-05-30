@@ -1,7 +1,7 @@
 from ..models import Question
 
 def get_questions():
-    queryset = Question.objects.all().order_by('-dateTime')[:10]
+    queryset = Question.objects.all()
     return (queryset)
 
 def create_question(form):

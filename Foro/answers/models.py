@@ -1,5 +1,4 @@
 from django.db import models
-from students.models import Student
 from questions.models import Question
 
 class Answer(models.Model):

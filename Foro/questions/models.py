@@ -1,11 +1,15 @@
 from django.db import models
-from students.models import Student
 
 
 class Question(models.Model):
-    student = models.ForeignKey(Student, on_delete=models.CASCADE, default=None)
+    TAGS = (
+        ('EDU', 'Educacion'),
+        ('FOR', 'Foraneo'),
+        ('FIN', 'Financiacion'),
+    )
+    student_id = models.IntegerField(null=False, default=None)
     text = models.CharField(max_length=1000)
-    #Implementar tags despues si se puede
+    tag = models.CharField(max_length=50, choices=TAGS)
     dateTime = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):

@@ -5,13 +5,15 @@ class QuestionForm(forms.ModelForm):
     class Meta:
         model = Question
         fields = [
-            'student',
+            'student_id',
             'text',
+            'tag',
             #'dateTime',
         ]
 
         labels = {
-            'student' : 'Estudiante',
+            'student_id' : 'Estudiante',
             'text' : 'Texto',
+            'tag' : 'Tag',
             #'dateTime' : 'Date Time',
         }
